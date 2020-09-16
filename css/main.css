@@ -14,7 +14,6 @@ body{
         width: 100%;
         padding-top: 60px;
         padding-bottom: 60px;
-
     }
         .hero-row{
             display: inline-block;
@@ -50,3 +49,65 @@ body{
     .bg-blue{
         background-color: #03A9F4;
     }
+    .background{
+        background-image: url(../img/top.png);
+        /* con need to use no-repeat when size is cover */
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-position: center;
+    }
+@media (max-width: 1100px) {
+    .row{
+        width: 800px;
+        margin-left: calc( (100% - 800px ) / 2);
+    }
+}
+
+@media (max-width: 900px) {
+        .row{
+            width: 600px;
+            margin-left: calc( (100% - 600px ) / 2);
+        }
+            .left-column{
+                width: 100%;
+                margin-bottom: 60px;
+            }
+            .right-column{
+                width: 100%;
+                float: left;
+            }
+}
+
+@media (max-width: 700px) {
+      .hero-row{
+            width: 400px;
+            margin-left: calc ( (100% - 400px) / 2 );
+        }
+            .row{
+                width: 400px;
+            margin-left: calc ( (100% - 400px) / 2 );
+            }
+            .texts{
+                width: 400px;
+            margin-left: calc ( (100% - 400px) / 2 );
+            }
+}
+
+@media (max-width: 500px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .hero-row{
+            width: 100%;
+            margin-left:0;
+        }
+            .row{
+                width: 100%;
+                margin-left: 0;
+            }
+            .texts{
+                width: 100%;
+                margin-left:0;
+            }
+}
