@@ -12,7 +12,7 @@ body{
 
 
     /* STYLING FOR DIV MAIN FOOTER PARENT ELEMENT */
-    .container{
+    .container {
         display: inline-block;
         width: 100%;
         padding-top: 60px;
@@ -22,22 +22,49 @@ body{
 
 
     /* STYLING FOR DIV HEADER */
-            .hero-row{
+            .hero-row {
                 display: inline-block;
                 width: 600px;
                 margin-left: calc( (100% - 600px ) / 2);
-                background-color: aqua;
+                text-align: center;
             }
-            .bg-blue{
+            .bg-blu { 
                 background-color: #03A9F4;
             }
-            .background{
+            .background {
                 background-image: url(../img/top.png);
                 /* con need to use no-repeat when size is cover */
                 /* background-repeat: no-repeat; */
                 background-size: cover;
-                background-position: center;
+                background-position: bottom center;
             }
+                .logo {
+                    height: 60px;
+                    width: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                    margin-bottom: 60px;
+                }
+                .title {
+                    text-transform: uppercase;
+                    font-size: 60px;
+                    line-height: 50px;
+                    margin-bottom: 30px;
+                }
+                .sub-title {
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 60px;
+                }
+                .clock {
+                    margin-bottom: 60px;
+                }
+                .hero-row > .form {
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    margin-bottom: 20px;
+                }
 
 
 
