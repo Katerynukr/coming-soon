@@ -69,24 +69,28 @@ body{
 
 
     /* STYLING FOR MAIN */
-        .left-column{
+        .left-column {
             display: inline-block;
             width: 50%;
             float: left;
         }
-        .right-column{
+        .right-column {
             display: inline-block;
             width: 40%;
             float: right;
         }
-
+            .column-title {
+                margin-bottom: 30px;
+            }
+            .column-description {
+                margin-bottom: 30px;
+            }
 
      /* STYLING FOR FOOTER */
         .row{
             display: inline-block;
             width: 1000px;
             margin-left: calc( (100% - 1000px ) / 2);
-            background-color: aqua;
             }
             .social{
                 display: inline-block;
