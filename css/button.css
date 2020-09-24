@@ -13,7 +13,8 @@
     padding: 20px 40px;
 }
 .btn.round {
-    border-radius: 30px;
+    border-radius: 50%;
+}
 .btn.fa{
     padding: 15px;
     width: 50px;
